@@ -18,9 +18,11 @@ class CustomeException(Exception):
         return self.error_message
     
 
+"""
 if __name__ == "main":
     try:
         a = 1/0
     except Exception as e:
         logging.info("devide 0 salah")
         raise CustomeException(e, sys)
+"""
